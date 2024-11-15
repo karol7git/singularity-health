@@ -1,19 +1,6 @@
 export default function Footer() {
   return (
     <div className="relative bg-gradient-to-r from-red-400 to-red-500 text-white py-16">
-      {/* Fondo Curvado */}
-      {/* <svg
-        className="absolute top-0 left-0 w-full -translate-y-1/2"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-      >
-        <path
-          fill="currentColor"
-          d="M0,128L48,154.7C96,181,192,235,288,229.3C384,224,480,160,576,144C672,128,768,160,864,186.7C960,213,1056,235,1152,218.7C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg> */}
-
-      {/* Contenido del Footer */}
       <div className="container mx-auto px-8 md:px-16 lg:px-32 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {/* Sección About */}
